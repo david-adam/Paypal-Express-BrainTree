@@ -1,5 +1,6 @@
 {
     "require": {
-        "braintree/braintree_php": "3.25.0"
+        "braintree/braintree_php": "3.25.0",
+        "guzzlehttp/guzzle": "~6.0"
     }
 }

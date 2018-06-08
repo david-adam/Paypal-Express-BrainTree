@@ -17,3 +17,12 @@ $gateway = new Braintree_Gateway(array(
     'accessToken' => 'access_token$sandbox$dqkytsbccnzqh2g7$f4bec65ef541fe886b7d25014cefd9e6',
     //from my PayPal sandbox linked with Braintree sandbox account ( david.g.adam+seller@gmail.com )
 ));
+
+
+$payPalRestAPIAppToken = 'A21AAHP2f7NvgCXtfW0idSYRhyMOj5SaB_82vi1wso7UMwfNTqLKzh_nc7h3QDZymYhwZ4Cpyq9oxvgGjy4911rTL31Ak_7ng';
+$payPalRestAPIEndPoint = "https://api.sandbox.paypal.com";
+$payPalRestAPIDisputResource = "/v1/customer/disputes";
+
+$disputeAPIExerciseSamples = [
+    "dispute-id" => "PP-000-042-655-677"
+];
